@@ -4,6 +4,8 @@ A from-scratch KV cache for autoregressive decoding, benchmarked against
 recompute-every-step decoding, plus a study of bounded-cache eviction policies
 (none / FIFO / LRU) measured by how much attention mass each policy preserves.
 
+Trained model: https://huggingface.co/narinzar/tinygpt-shakespeare-kvcache
+
 ## Problem
 
 Autoregressive generation recomputes attention over the whole prefix at every

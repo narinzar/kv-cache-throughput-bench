@@ -1,0 +1,11 @@
+# Install torch from the CUDA 12.8 index for RTX 50-series (Blackwell, sm_120):
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu128
+# then install the rest from PyPI:
+torch>=2.11
+numpy
+tqdm
+matplotlib
+pytest
+truststore
+python-dotenv
+huggingface_hub
